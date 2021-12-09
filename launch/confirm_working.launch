@@ -9,7 +9,9 @@
   </node>
 
   <!-- rviz -->
-  <node pkg="rviz" name="rviz" type="rviz" args="-d $(find rslidar_sdk)/rviz/rviz.rviz" />
+  <node pkg="rviz" name="rviz" type="rviz" args="-d $(find rslidar_sdk)/rviz/confirm_connection.rviz" />
 
+  <!-- Dummy TF -->
+  <node name="dummy_lidar_tf" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 rs128_lidar rsm1_lidar 40" />
 
 </launch>

@@ -10,6 +10,7 @@ Panels:
         - /PointCloud21
         - /Axes2
         - /Axes3
+        - /Axes3/Status1
       Splitter Ratio: 0.48523205518722534
     Tree Height: 2136
   - Class: rviz/Selection
@@ -65,7 +66,7 @@ Visualization Manager:
       Position Transformer: XYZ
       Queue Size: 10
       Selectable: true
-      Size (Pixels): 4
+      Size (Pixels): 1.5
       Size (m): 0.009999999776482582
       Style: Points
       Topic: /rsm1_lidar_points
@@ -171,7 +172,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.169753909111023
+      Distance: 7.800487995147705
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -179,17 +180,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 1.0982412099838257
-        Y: -0.8405847549438477
-        Z: 0.35927119851112366
+        X: -0.11274506151676178
+        Y: -0.478074848651886
+        Z: 1.8244887590408325
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7047967910766602
+      Pitch: 1.389796495437622
       Target Frame: <Fixed Frame>
-      Yaw: 3.59999418258667
+      Yaw: 3.384993314743042
     Saved: ~
 Window Geometry:
   Displays:
