@@ -23,7 +23,7 @@ lidar:
       max_distance: 200            #Maximum distance of point cloud
       use_lidar_clock: false       #True--Use the lidar clock as the message timestamp
                                    #False-- Use the system clock as the timestamp  
-      angle_path: /home/zrene/Downloads/angle.csv
+      angle_path: /home/jetson/catkin_ws/src/rslidar_sdk/angle.csv
     ros:
       ros_recv_packet_topic: rs128_lidar_packets          #Topic used to receive lidar packets from ROS
       ros_send_packet_topic: rs128_lidar_packets          #Topic used to send lidar packets through ROS
